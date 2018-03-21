@@ -1,9 +1,8 @@
 #### GetCodeButton
 
+##### 代码创建self.getCodeBtn
+##### xib创建的会出现一闪一闪的问题
 ```
-#####代码创建self.getCodeBtn
-#####xib创建的会出现一闪一闪的问题
-
 - (void)startTimer {
     __block int time = 60;
     __block UIButton *verifybutton = self.getCodeBtn;
@@ -32,7 +31,7 @@
 ```
  
  
-#####支付倒计时
+##### 支付倒计时
 ```
 - (void)secondsCountDown:(UILabel *)label {
     __block int timeout = 5400;
