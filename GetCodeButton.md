@@ -1,8 +1,11 @@
 #### GetCodeButton
 
-##### 代码创建self.getCodeBtn
-##### xib创建的会出现一闪一闪的问题
+
+##### 获取验证码
 ```
+// 代码创建self.getCodeBtn
+// xib创建的会出现一闪一闪的问题
+
 - (void)startTimer {
     __block int time = 60;
     __block UIButton *verifybutton = self.getCodeBtn;
