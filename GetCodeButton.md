@@ -33,6 +33,7 @@
  
  
 #####支付倒计时
+```
 - (void)secondsCountDown:(UILabel *)label {
     __block int timeout = 5400;
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -56,3 +57,4 @@
     });
     dispatch_resume(_timer);
 }
+```
