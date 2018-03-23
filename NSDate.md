@@ -41,6 +41,15 @@ NSString *startTime = [formatter stringFromDate:startDate];
     return (NSInteger)time/(3600*24);
 }
 ```
+- 计算两个NSDate之间的秒数
+```
+- (NSInteger)getSecondFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate {
+    NSCalendar *cal = [NSCalendar currentCalendar];
+    unsigned int unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute |     NSCalendarUnitSecond;
+    NSDateComponents *d = [cal components:unitFlags fromDate:fromDate toDate:toDate options:0];
+    int sec = [d hour]*3600+[d minute]*60+[d second];
+}
+```
 - 将字符串转成NSDate类型
 ```
 - (NSDate *)dateFromString:(NSString *)dateString {
