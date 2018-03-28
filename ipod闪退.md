@@ -1,6 +1,6 @@
 #### ipod闪退
 
-![mage-20180328135707](/var/folders/68/qkffd9n17175z5x2ydxnp6cm0000gn/T/abnerworks.Typora/image-201803281357074.png)
+![](https://raw.githubusercontent.com/CoderFong/image/master/ipod1.png)
 
 
 
@@ -8,5 +8,5 @@
 
 需要根据系统判断环境，然后分别处理
 
-![mage-20180328141720](/var/folders/68/qkffd9n17175z5x2ydxnp6cm0000gn/T/abnerworks.Typora/image-201803281417200.png)
+![](https://raw.githubusercontent.com/CoderFong/image/master/ipod2.png)
 
